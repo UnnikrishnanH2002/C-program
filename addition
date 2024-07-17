@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, c;
+    printf("Enter the numbers: ");
+    scanf("%d %d", &a, &b); // Use the address-of operator (&)
+    c = a + b; // Calculate the sum
+    printf("%d\n", c); // Print the sum
+    return 0;
+}
