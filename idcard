@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+ struct idcard
+    {
+        char name[50];
+        int rollnum,class;
+    };
+
+int main() 
+{ 
+    struct idcard student;
+    printf("enter the name: ");
+    scanf("%s",&student.name);
+    
+    printf("enter the rollnum: ");
+    scanf("%d",&student.rollnum);
+    
+    printf("enter the class: ");
+    scanf("%d",&student.class);
+    
+    printf("name=%s\n",student.name);
+    printf("rollnum=%d\n",student.rollnum);
+    printf("class=%d",student.class);
+    return 0;
+}
